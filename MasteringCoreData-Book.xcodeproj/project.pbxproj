@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5EF34725DD301100260C7C /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF34525DD301100260C7C /* Notes.xcdatamodeld */; };
+		9F5EF34A25DD31AB00260C7C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF34925DD31AB00260C7C /* CoreDataManager.swift */; };
+		9F5EF36125DD372D00260C7C /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF36025DD372D00260C7C /* NoteCellView.swift */; };
+		9F5EF36625DD591300260C7C /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF36525DD591300260C7C /* AddNoteViewController.swift */; };
 		9F6A7BA825DACCD2007D0D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7BA725DACCD2007D0D33 /* AppDelegate.swift */; };
 		9F6A7BAA25DACCD2007D0D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7BA925DACCD2007D0D33 /* SceneDelegate.swift */; };
-		9F6A7BAC25DACCD2007D0D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7BAB25DACCD2007D0D33 /* ViewController.swift */; };
-		9F6A7BAF25DACCD2007D0D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A7BAD25DACCD2007D0D33 /* Main.storyboard */; };
+		9F6A7BAC25DACCD2007D0D33 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7BAB25DACCD2007D0D33 /* NotesViewController.swift */; };
 		9F6A7BB125DACCD4007D0D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A7BB025DACCD4007D0D33 /* Assets.xcassets */; };
 		9F6A7BB425DACCD4007D0D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A7BB225DACCD4007D0D33 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F5EF34625DD301100260C7C /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
+		9F5EF34925DD31AB00260C7C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9F5EF36025DD372D00260C7C /* NoteCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellView.swift; sourceTree = "<group>"; };
+		9F5EF36525DD591300260C7C /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		9F6A7BA425DACCD2007D0D33 /* MasteringCoreData-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MasteringCoreData-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6A7BA725DACCD2007D0D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6A7BA925DACCD2007D0D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F6A7BAB25DACCD2007D0D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F6A7BAE25DACCD2007D0D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F6A7BAB25DACCD2007D0D33 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		9F6A7BB025DACCD4007D0D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6A7BB325DACCD4007D0D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6A7BB525DACCD4007D0D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F5EF35A25DD337000260C7C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5EF34925DD31AB00260C7C /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9F5EF35B25DD338100260C7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F6A7BAB25DACCD2007D0D33 /* NotesViewController.swift */,
+				9F5EF36525DD591300260C7C /* AddNoteViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F5EF36325DD373000260C7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F5EF36025DD372D00260C7C /* NoteCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9F6A7B9B25DACCD2007D0D33 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +89,10 @@
 			children = (
 				9F6A7BA725DACCD2007D0D33 /* AppDelegate.swift */,
 				9F6A7BA925DACCD2007D0D33 /* SceneDelegate.swift */,
-				9F6A7BAB25DACCD2007D0D33 /* ViewController.swift */,
-				9F6A7BAD25DACCD2007D0D33 /* Main.storyboard */,
+				9F5EF36325DD373000260C7C /* Views */,
+				9F5EF35B25DD338100260C7C /* ViewControllers */,
+				9F5EF35A25DD337000260C7C /* Managers */,
+				9F5EF34525DD301100260C7C /* Notes.xcdatamodeld */,
 				9F6A7BB025DACCD4007D0D33 /* Assets.xcassets */,
 				9F6A7BB225DACCD4007D0D33 /* LaunchScreen.storyboard */,
 				9F6A7BB525DACCD4007D0D33 /* Info.plist */,
@@ -126,7 +159,6 @@
 			files = (
 				9F6A7BB425DACCD4007D0D33 /* LaunchScreen.storyboard in Resources */,
 				9F6A7BB125DACCD4007D0D33 /* Assets.xcassets in Resources */,
-				9F6A7BAF25DACCD2007D0D33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +169,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6A7BAC25DACCD2007D0D33 /* ViewController.swift in Sources */,
+				9F5EF36625DD591300260C7C /* AddNoteViewController.swift in Sources */,
+				9F6A7BAC25DACCD2007D0D33 /* NotesViewController.swift in Sources */,
 				9F6A7BA825DACCD2007D0D33 /* AppDelegate.swift in Sources */,
 				9F6A7BAA25DACCD2007D0D33 /* SceneDelegate.swift in Sources */,
+				9F5EF34A25DD31AB00260C7C /* CoreDataManager.swift in Sources */,
+				9F5EF36125DD372D00260C7C /* NoteCellView.swift in Sources */,
+				9F5EF34725DD301100260C7C /* Notes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F6A7BAD25DACCD2007D0D33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6A7BAE25DACCD2007D0D33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F6A7BB225DACCD4007D0D33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +369,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F5EF34525DD301100260C7C /* Notes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F5EF34625DD301100260C7C /* Notes.xcdatamodel */,
+			);
+			currentVersion = 9F5EF34625DD301100260C7C /* Notes.xcdatamodel */;
+			path = Notes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9F6A7B9C25DACCD2007D0D33 /* Project object */;
 }
