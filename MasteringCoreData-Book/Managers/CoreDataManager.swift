@@ -8,7 +8,9 @@
 import CoreData
 class CoreDataManager{
     static var context : NSManagedObjectContext {
-        self.shared.container.viewContext
+       let context =  self.shared.container.viewContext
+
+        return context
     }
     
     private static var shared = CoreDataManager()
@@ -18,6 +20,7 @@ class CoreDataManager{
     
     init() {
         container.loadPersistentStores { (_, error) in
+            
             
         }
     }

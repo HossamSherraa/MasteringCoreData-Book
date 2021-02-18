@@ -16,6 +16,7 @@
 		9F6A7BAC25DACCD2007D0D33 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7BAB25DACCD2007D0D33 /* NotesViewController.swift */; };
 		9F6A7BB125DACCD4007D0D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A7BB025DACCD4007D0D33 /* Assets.xcassets */; };
 		9F6A7BB425DACCD4007D0D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A7BB225DACCD4007D0D33 /* LaunchScreen.storyboard */; };
+		9F9BF2D125DE6998003BDF21 /* UndoRedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BF2D025DE6998003BDF21 /* UndoRedoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9F6A7BB025DACCD4007D0D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6A7BB325DACCD4007D0D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6A7BB525DACCD4007D0D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9BF2D025DE6998003BDF21 /* UndoRedoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9F6A7BAB25DACCD2007D0D33 /* NotesViewController.swift */,
 				9F5EF36525DD591300260C7C /* AddNoteViewController.swift */,
+				9F9BF2D025DE6998003BDF21 /* UndoRedoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				9F6A7BAA25DACCD2007D0D33 /* SceneDelegate.swift in Sources */,
 				9F5EF34A25DD31AB00260C7C /* CoreDataManager.swift in Sources */,
 				9F5EF36125DD372D00260C7C /* NoteCellView.swift in Sources */,
+				9F9BF2D125DE6998003BDF21 /* UndoRedoViewController.swift in Sources */,
 				9F5EF34725DD301100260C7C /* Notes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

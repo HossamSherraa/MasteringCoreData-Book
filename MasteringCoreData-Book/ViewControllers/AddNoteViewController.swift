@@ -91,16 +91,16 @@ class AddNoteViewController : UIViewController {
     
     @objc func onPressDone(){
         guard let title = titleTextField.text , let content = contentTextView.text else {return}
-        let context = CoreDataManager.context
+       
     let note = Note(context: context)
         note.title = title
         note.contents = content
         note.createdAt = Date()
         
         context.insert(note)
-        
+    
         try? context.save()
-        
+    
         self.navigationController?.popViewController(animated: true)
         
         addNotesPublisher?.send()
