@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F549A5825E3598300DC3D6D /* EarthQuakesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F549A5725E3598300DC3D6D /* EarthQuakesManager.swift */; };
 		9F5EF34725DD301100260C7C /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF34525DD301100260C7C /* Notes.xcdatamodeld */; };
 		9F5EF34A25DD31AB00260C7C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF34925DD31AB00260C7C /* CoreDataManager.swift */; };
 		9F5EF36125DD372D00260C7C /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EF36025DD372D00260C7C /* NoteCellView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F549A5725E3598300DC3D6D /* EarthQuakesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakesManager.swift; sourceTree = "<group>"; };
 		9F5EF34625DD301100260C7C /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
 		9F5EF34925DD31AB00260C7C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9F5EF36025DD372D00260C7C /* NoteCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				9F5EF34925DD31AB00260C7C /* CoreDataManager.swift */,
+				9F549A5725E3598300DC3D6D /* EarthQuakesManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				9F6A7BA825DACCD2007D0D33 /* AppDelegate.swift in Sources */,
 				9F6A7BAA25DACCD2007D0D33 /* SceneDelegate.swift in Sources */,
 				9F5EF34A25DD31AB00260C7C /* CoreDataManager.swift in Sources */,
+				9F549A5825E3598300DC3D6D /* EarthQuakesManager.swift in Sources */,
 				9F5EF36125DD372D00260C7C /* NoteCellView.swift in Sources */,
 				9F9BF2D125DE6998003BDF21 /* UndoRedoViewController.swift in Sources */,
 				9F5EF34725DD301100260C7C /* Notes.xcdatamodeld in Sources */,
